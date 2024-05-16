@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    background-color: #000;
+}
+.fondo-fijo{
+    height: 130vh;
+    width: 100%;
+    background-image: url(img/estadium.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fondo-fijo h1{
+    font-size: 140px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 50px;
+    color: rgb(255, 254, 252);
+    z-index: -50;
+}
+.info{
+    background-color: #fff;
+}
+.info .contenido{
+    padding: 15px 0;
+    max-width: 800px;
+    margin: auto;
+    font-size: 22px;
+}
+.contenido h2{
+    color: #000;
+    margin: 30px 0;
+}
+.ucl{
+    background-image: url(img/jarra.png);
+    
+}
+header{
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.logo img{
+    height: 50px;
+    margin: 30px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+   
+}
+nav  a:hover{
+    background-color: #000;
+    color: #fff;
+}
